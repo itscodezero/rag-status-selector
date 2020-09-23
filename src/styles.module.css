@@ -7,3 +7,92 @@
   font-size: 2em;
   text-align: center;
 }
+.select {
+  border: 1px solid #999999;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+  margin: 0;
+  font-size: 18px;
+  width: 80px;
+}
+#EditDropdownBox .select {
+  float: left;
+  border-radius: 5px 0 0 5px;
+  padding: 8px 10px;
+  width: 170px;
+}
+
+.select ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  position: absolute;
+  border: 1px solid #999999;
+  border-radius: 5px;
+  left: -1px;
+  top: 51px;
+  width: 80px;
+  background-color: #fff;
+  z-index: 9999 !important;
+}
+#EditDropdownBox .select ul {
+  width: 170px;
+  top: 47px;
+}
+.select > span.selectedRAG {
+  width: 100%;
+  display: BLOCK;
+  background: #eb9700;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  /* margin-left: 8px; */
+  padding: 10px;
+}
+.select ul li {
+  padding: 10px 0;
+}
+.select span.dropdownArrow {
+  /* background: url("./Assets/images/down-arrow.png") no-repeat; */
+  background-size: 100%;
+  width: 18px;
+  display: inline-block;
+  height: 10px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+#EditDropdownBox .select span.dropdownArrow {
+  margin-left: 95px;
+}
+.select ul li a {
+  width: 100%;
+  display: BLOCK;
+  background: #eb9700;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  vertical-align: middle;
+  /* margin-left: 8px; */
+  padding: 10px;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none !important;
+}
+
+.RAGbox {
+  position: relative;
+  top: 0;
+  right: 0;
+}
